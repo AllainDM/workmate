@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 from dotenv import load_dotenv
 
 
-from models import Base, Breed, Kitten
+from app.models import Base, Breed, Kitten
 
 # Настройки базы данных.
 # Загружаем переменные окружения из .env файла

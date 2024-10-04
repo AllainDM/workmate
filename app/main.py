@@ -1,18 +1,14 @@
 # import os
 
 from fastapi import FastAPI, Depends, HTTPException, exceptions
-# from sqlalchemy import create_engine
-# from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker, Session
+from sqlalchemy.orm import Session
 import uvicorn
-# from dotenv import load_dotenv
 
 import models, schemas, crud
 from database import SessionLocal, engine
-# from app import crud
+
 
 # TODO Внимание, необходимо пофиксить следующие пункты:
-# TODO почистить импорты
 # ...
 
 # Создание базы данных.

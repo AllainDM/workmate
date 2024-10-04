@@ -1,12 +1,7 @@
-import json
-
 import pytest
 from fastapi.testclient import TestClient
 from sqlalchemy.orm import sessionmaker
 
-# from app import models
-# from app.main import app
-# from app.database import get_db, Base, create_engine
 
 import models
 from main import app
